@@ -62,6 +62,7 @@ BACKLIGHT_ENABLE = no      # Enable keyboard backlight functionality
 MIDI_ENABLE = no            # MIDI controls
 AUDIO_ENABLE = no           # Audio output on port C6
 UNICODE_ENABLE = no         # Unicode
+UNICODEMAP_ENABLE = yes
 BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
 RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight. 
 SUBPROJECT_rev1 = no
@@ -71,4 +72,4 @@ SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 
 CUSTOM_MATRIX = yes
 
-DEFAULT_FOLDER = lily58/rev1
+DEFAULT_FOLDER = pakbd/rev1

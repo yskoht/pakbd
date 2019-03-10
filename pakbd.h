@@ -5,6 +5,8 @@
 
 #ifdef KEYBOARD_pakbd_rev1
     #include "rev1.h"
+#elif KEYBOARD_pakbd_rev2
+    #include "rev2.h"
 #endif
 
 #endif

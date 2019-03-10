@@ -72,4 +72,4 @@ SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 
 CUSTOM_MATRIX = yes
 
-DEFAULT_FOLDER = pakbd/rev1
+DEFAULT_FOLDER = pakbd/rev2

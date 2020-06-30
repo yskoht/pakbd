@@ -27,9 +27,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "util.h"
 #include "matrix.h"
 #include "split_util.h"
-#include "pro_micro.h"
 #include "config.h"
 #include "timer.h"
+
+// From pro_micro.h
+#define TX_RX_LED_INIT DDRD |= (1 << 5), DDRB |= (1 << 0)
+#define TXLED0 PORTD |= (1 << 5)
+#define TXLED1 PORTD &= ~(1 << 5)
 
 #ifdef USE_I2C
 #  include "i2c.h"

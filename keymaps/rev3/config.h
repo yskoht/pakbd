@@ -20,20 +20,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* Use I2C or Serial, not both */
-
 #define USE_SERIAL
 // #define USE_I2C
 
 /* Select hand configuration */
-
 #define MASTER_LEFT
 //#define MASTER_RIGHT
 // #define EE_HANDS
-
-// Underglow
-/*
-#undef RGBLED_NUM
-#define RGBLED_NUM 14    // Number of LEDs
-#define RGBLIGHT_ANIMATIONS
-#define RGBLIGHT_SLEEP
-*/
